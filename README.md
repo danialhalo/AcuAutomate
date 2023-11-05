@@ -9,10 +9,11 @@ git clone https://github.com/danialhalo/AcuAutomate.git
 cd AcuAutomate
 chmod +x AcuAutomate.py
 pip3 install -r requirements.txt
+```
 
 ## Configuration (config.json)
 Before using AcuAutomate, you need to set up the configuration file _config.json_ inside the **AcuAutomate** folder:
-```
+```JSON
 {
     "url": "https://localhost",
     "port": 3443,
