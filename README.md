@@ -48,8 +48,8 @@ options:
   -h, --help   show this help message and exit
 ```
 
-## Scan Action
-For launching the scan you need to use the scan action:
+## Scan Actions
+For launching the scan you need to use the scan actions:
 ```bash
 xubuntu:~/acunetix-cli$ ./AcuAutomate.py scan -h
     
@@ -73,21 +73,21 @@ The domain can be provided with -d flag for single site scan:
 ./AcuAutomate.py scan -d https://www.google.com
 ```
 ### Scanning Multiple Targets
-For scanning multiple domains you need to add the domains into the file and then specify the file name with -f flag:
+For scanning multiple domains the domains need to be added into the file and then specify the file name with -f flag:
 ```
 ./AcuAutomate.py scan -f domains.txt
 ```
 ### Pipeline 
-The AcuAutomate can alos worked with the pipeline input with -p flag:
+The AcuAutomate can also worked with the pipeline input with -p flag:
 ```
 cat domain.txt | ./AcuAutomate.py scan -p
 ```
-This is Great :heart_eyes:	as it can enable the AcuAutomate to work with other tools. For example we can use the subfinder , httpx and then pipe the output to AcuAutomate for mass scanning with acunetix:
+This is Great :heart_eyes:	as it can enable the AcuAutomate to work with other tools. For example we can use the **subfinder** , **httpx** and then pipe the output to AcuAutomate for mass scanning with acunetix:
 ```
 subfinder -silent -d google.com | httpx -silent | ./AcuAutomate.py scan -p
 ```
 ### scan type 
-The -t flag can be used to define the scan type. For example the following scan will only detect the SQL vulnerabilities:
+The -t flag can be used to define the scan type. For example the following scan will only detect the **SQL vulnerabilities**:
 ```
 ./AcuAutomate.py scan -d https://www.google.com -t sql
 ```
@@ -98,4 +98,9 @@ AcuAutomate only accept the domains with `http://` or `https://`
 
 ## Stop Action
 
-The **stop** action can be used for stoping the scan either with ``-d`` flag for stoping scan on single domain or with ``-a`` flage for stopping all scans.
+The **stop** action can be used for stoping the scan either with ``-d`` flag for stoping scan by specifing the domain or with ``-a`` flage for stopping all running scans.
+
+## Contact 
+
+Please submit any bugs, issues, questions, or feature requests under "Issues" or send them to me on Twitter. [@DanialHalo](https://twitter.com/DanialHalo)
+
