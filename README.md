@@ -25,7 +25,7 @@ Before using **AcuAutomate**, you need to set up the configuration file _config.
 
 ## Usage
 The help parameter (-h) can be used for accessing more detailed help for specific actions
-```
+```bash
     		                               __  _                 ___
     		  ____ ________  ______  ___  / /_(_)  __      _____/ (_)
     		 / __ `/ ___/ / / / __ \/ _ \/ __/ / |/_/_____/ ___/ / /
@@ -47,3 +47,4 @@ positional arguments:
 options:
   -h, --help   show this help message and exit
 ```
+
