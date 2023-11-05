@@ -12,7 +12,7 @@ pip3 install -r requirements.txt
 ```
 
 ## Configuration (config.json)
-Before using AcuAutomate, you need to set up the configuration file _config.json_ inside the **AcuAutomate** folder:
+Before using **AcuAutomate**, you need to set up the configuration file _config.json_ inside the **AcuAutomate** folder:
 ```JSON
 {
     "url": "https://localhost",
@@ -20,9 +20,9 @@ Before using AcuAutomate, you need to set up the configuration file _config.json
     "api_key": "API_KEY"
 }
 ```
+- The URL and PORT parameter is set to default acunetix settings, However this can be changed depending on acunetix configurations.
+- Replace the **API_KEY** with your acunetix api key. The key can be obtained from user profiles at https://localhost:3443/#/profile
 
-
-```
 ## Usage
 The help parameter (-h) can be used for accessing more detailed help for specific actions
 ```
