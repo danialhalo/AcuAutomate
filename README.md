@@ -3,4 +3,11 @@
 
 ![alt text](https://raw.githubusercontent.com/danialhalo/AcuAutomate/main/banner.png)
 
-
+## Installation
+```
+git clone https://github.com/danialhalo/AcuAutomate.git
+cd AcuAutomate
+chmod +x AcuAutomate.py
+pip3 install -r requirements.txt
+```
+## Usage
