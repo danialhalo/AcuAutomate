@@ -7,7 +7,7 @@ import json
 import argparse
 import validators
 import textwrap
-import sys,time
+import sys
 requests.packages.urllib3.disable_warnings()
 
 
