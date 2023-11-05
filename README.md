@@ -51,7 +51,7 @@ options:
 ## Scan Actions
 For launching the scan you need to use the scan actions:
 ```bash
-xubuntu:~/acunetix-cli$ ./AcuAutomate.py scan -h
+xubuntu:~/AcuAutomate$ ./AcuAutomate.py scan -h
     
 usage: AcuAutomate.py scan [-h] [-p] [-d DOMAIN] [-f FILE]
                            [-t {full,high,weak,crawl,xss,sql}]
@@ -99,7 +99,27 @@ AcuAutomate only accept the domains with `http://` or `https://`
 ## Stop Action
 
 The **stop** action can be used for stoping the scan either with ``-d`` flag for stoping scan by specifing the domain or with ``-a`` flage for stopping all running scans.
+```
+xubuntu:~/AcuAutomate$ ./AcuAutomate.py stop -h
 
+
+    		                               __  _                 ___
+    		  ____ ________  ______  ___  / /_(_)  __      _____/ (_)
+    		 / __ `/ ___/ / / / __ \/ _ \/ __/ / |/_/_____/ ___/ / /
+    		/ /_/ / /__/ /_/ / / / /  __/ /_/ />  </_____/ /__/ / /
+    		\__,_/\___/\__,_/_/ /_/\___/\__/_/_/|_|      \___/_/_/
+    		
+    		                   -: By Danial Halo :-
+
+    
+usage: AcuAutomate.py stop [-h] [-d DOMAIN] [-a]
+
+options:
+  -h, --help            show this help message and exit
+  -d DOMAIN, --domain DOMAIN
+                        Domain of the scan to stop
+  -a, --all             Stop all Running Scans
+```
 ## Contact 
 
 Please submit any bugs, issues, questions, or feature requests under "Issues" or send them to me on Twitter. [@DanialHalo](https://twitter.com/DanialHalo)
