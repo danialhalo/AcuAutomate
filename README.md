@@ -20,7 +20,7 @@ Before using **AcuAutomate**, you need to set up the configuration file _config.
     "api_key": "API_KEY"
 }
 ```
-- The URL and PORT parameter is set to default acunetix settings, However this can be changed depending on acunetix configurations.
+- The **URL** and **PORT** parameter is set to default acunetix settings, However this can be changed depending on acunetix configurations.
 - Replace the **API_KEY** with your acunetix api key. The key can be obtained from user profiles at https://localhost:3443/#/profile
 
 ## Usage
