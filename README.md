@@ -11,3 +11,26 @@ chmod +x AcuAutomate.py
 pip3 install -r requirements.txt
 ```
 ## Usage
+The help parameter (-h) can be used for accessing more detailed help for specific actions
+```
+    		                               __  _                 ___
+    		  ____ ________  ______  ___  / /_(_)  __      _____/ (_)
+    		 / __ `/ ___/ / / / __ \/ _ \/ __/ / |/_/_____/ ___/ / /
+    		/ /_/ / /__/ /_/ / / / /  __/ /_/ />  </_____/ /__/ / /
+    		\__,_/\___/\__,_/_/ /_/\___/\__/_/_/|_|      \___/_/_/
+    		
+    		                   -: By Danial Halo :-
+
+    
+usage: AcuAutomate.py [-h] {scan,stop} ...
+
+Launch or stop a scan using Acunetix API
+
+positional arguments:
+  {scan,stop}  Action to perform
+    scan       Launch a scan use scan -h
+    stop       Stop a scan
+
+options:
+  -h, --help   show this help message and exit
+```
