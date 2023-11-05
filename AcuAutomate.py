@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Unficial Acunetix CLI version for automation 
+# Unoficial Acunetix CLI version for automation 
 # Coded by https://twitter.com/DanialHalo
 
 import requests
